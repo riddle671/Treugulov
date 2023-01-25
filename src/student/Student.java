@@ -1,6 +1,15 @@
 package student;
 
 public class Student {
+
+    int nombel;
+        String name;
+        String famil;
+        int yearstudy;
+        double matem;
+        double ekon;
+        double inyaz;
+
     @Override
     public String toString() {
         return "Student{" +
@@ -23,16 +32,8 @@ public class Student {
         this.ekon = ekon;
         this.inyaz = inyaz;
     }
+}
 
-    int nombel;
-        String name;
-        String famil;
-        int yearstudy;
-        double matem;
-        double ekon;
-        double inyaz;
-
-        }
 
 
 
