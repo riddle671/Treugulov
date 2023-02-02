@@ -1,12 +1,12 @@
-package bankaccount;
+package lesson5.bankaccount;
 
 public class BankAccount {
     int balans;
 
 
-    int popolneniescheta(int dobavka) {
+    void popolneniescheta(int dobavka) {
         balans += dobavka;
-        return balans;
+
 
     }
 

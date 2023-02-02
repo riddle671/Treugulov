@@ -1,4 +1,4 @@
-package student;
+package lesson5.student;
 
 public class Student {
 
@@ -32,6 +32,12 @@ public class Student {
         this.ekon = ekon;
         this.inyaz = inyaz;
     }
+    void sredarif (){
+        double result1 = (ekon + matem + inyaz)/3;
+        System.out.println(result1);
+    }
+
+
 }
 
 
