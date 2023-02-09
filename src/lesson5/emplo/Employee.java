@@ -1,14 +1,16 @@
 package lesson5.emplo;
 
-public class Employee {
+ public class Employee {
     int id;
     String surname;
-    int age;
+    public int age;
     int salary;
     String departament;
+    public static int z = 10;
 
 
-     Employee(int id, String surname, int age, int salary, String departament) {
+
+     public Employee(int id, String surname, int age, int salary, String departament) {
         this.id = id;
         this.surname = surname;
         this.age = age;
@@ -21,16 +23,7 @@ public class Employee {
         System.out.println("Увеличение вдвое " + salary * 2);
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", surname='" + surname + '\'' +
-                ", age=" + age +
-                ", salary=" + salary +
-                ", departament='" + departament + '\'' +
-                '}';
-    }
+
 
     public static void hoop() {
         System.out.println("gavno");
