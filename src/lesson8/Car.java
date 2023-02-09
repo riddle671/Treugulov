@@ -1,23 +1,21 @@
 package lesson8;
 
 public class Car {
-    int c;
-    String b;
 
-    static int count;
 
-    public Car(int c1, String b2) {
-        count++;
-        this.c = c1;
-        this.b = b2;
+    public static int multiplication(int a, int b, int c){
+        int result1 = a*b*c;
+        System.out.println(result1);
+        return result1;
+    }
+    public static void division(int a, int b){
+        int result2 = a/b;
+        int result3 = a%b;
+        System.out.println("Частное " + result2 +" "+ "Остаток " + result3 );
 
     }
 
-    public static void showcast(){
-        Car ca1 = new Car(1,"fdf");
-        ca1.c++;
-       count++;
-    }
+
 
 
 
